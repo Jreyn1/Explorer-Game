@@ -8,12 +8,17 @@ public class ExplorerGameRunner
 
 		public static void main(String[] args)
 			{
-
+				//Greet Player
 				JPanel.intro();
+				
+				
+				JPanel.firstBranch();
+				JPanel.secondBranch();
+				JPanel.thirdBranchResults();
 				
 				/*
 				
-				if (startGame.equals("Start Game"))
+//				if (startGame.equals("Start Game"))
 					{
 						System.out.println("-------------------");
 
@@ -25,7 +30,7 @@ public class ExplorerGameRunner
 						int menuChoice1 = userInput.nextInt();
 						if (menuChoice1 == 1)
 							{
-								System.out.println("-------------------");
+//								System.out.println("-------------------");
 
 								// Question 2a
 
